@@ -1,7 +1,7 @@
-```java
+
 import java.util.HashMap;
 
-class Solution {
+class RomanToInt {
     public int romanToInt(String s) {
         HashMap<Character, Integer> map = new HashMap<>();
 
@@ -33,4 +33,4 @@ class Solution {
         return ans;
     }
 }
-```
+
